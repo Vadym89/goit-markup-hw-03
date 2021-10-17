@@ -14,6 +14,12 @@ body {
     font-family:Roboto, Raleway; 
 }
 
+.container {
+margin-left: auto;
+margin-right: auto;
+outline: 2px solid tomato;
+}
+
 
 /* logo */
 
@@ -38,6 +44,8 @@ body {
 
 .list {
      list-style: none;
+     padding: 0%;
+     margin: 0%;
 }
 
 
@@ -84,16 +92,19 @@ body {
     /* Hero.*/
 
 .hero {
-    background-color:var(--background-color-two)
+    background-color:var(--background-color-two);
+    text-align: center;
 }
 
 .hero-title {
+    margin-top: 0%;
+    margin-bottom: 30%;
     color:var(--hero-color);
     background-color:var();
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
+    
     letter-spacing: 0.06em;
 }
 
@@ -137,6 +148,12 @@ body {
 
 /* Button */
 .button {
+    display: inline-block;
+    border: 1px solid transparent ;
+    padding: 10px 32px;
+    border-radius: 4px;
+    min-width: 200px;
+
     color: var(--title-text-color);
     background-color: var(--primary-bg-color);
     font-family: Roboto;
@@ -145,6 +162,7 @@ body {
     line-height: 1.9;
     text-align: center;
     letter-spacing: 0.06em;
+    text-align: center;
 }
 
 .button.primary {
@@ -153,6 +171,7 @@ body {
     cursor: pointer;
     border-radius:4px;
     border-style: none;
+    
     
 }
     
