@@ -99,7 +99,7 @@ outline: 2px solid tomato;
 .hero-title {
     margin-top: 0%;
     margin-bottom: 30px;
-    
+
     color:var(--hero-color);
     background-color:var();
     font-weight: 900;
@@ -112,6 +112,19 @@ outline: 2px solid tomato;
 
 /* section */
 
+.hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+
 .team {
     background-color:var(--background-color);
 }
@@ -119,7 +132,10 @@ outline: 2px solid tomato;
 
 
 .section-title {
+    margin-top: 0;
+    margin-bottom: 60;
     color:var(--title-text-color);
+
     font-weight: bold;
     font-size: 36px;
     line-height: 1.16;
