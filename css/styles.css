@@ -98,7 +98,8 @@ outline: 2px solid tomato;
 
 .hero-title {
     margin-top: 0%;
-    margin-bottom: 30%;
+    margin-bottom: 30px;
+    
     color:var(--hero-color);
     background-color:var();
     font-weight: 900;
