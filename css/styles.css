@@ -46,9 +46,58 @@
          padding: 0%;
          margin: 0%;
     }
+
+    /* main nav */
     
-    
+    .main-nav {
+        display: flex;
+        align-items: center; 
+       
+        
+    }
+
     /* site nav */
+
+    .header-container {    
+        align-items: center;       
+    }
+
+
+    .site-nav  {
+        display: flex;
+        margin-left: 93px;
+    }
+
+    .site-nav .item {
+        margin-right: 50px;
+        display: block;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .site-nav .item:last-child {
+        margin-right: 0;
+    }
+
+    .site-nav .item:not(:last-child) {
+        margin-right: 50px;
+    }
+
+    .contacts-list {
+        display: flex;
+    }
+    
+    .contacts-list .contacts-item:not(:last-child) {
+        margin-right: 50px;
+    }
+
+    .contacts-list .contacts-item {
+        display: block;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    
     
     .site-nav .list {
         color:var(--primary-text-color);
