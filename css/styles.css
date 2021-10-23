@@ -15,8 +15,10 @@
     }
     
     .container {
-    margin-left: auto;
-    margin-right: auto;
+         width: 1200px;
+         padding-left: 15px;
+         padding-right: 15px;
+         margin: 0 auto;
     }
     
     
@@ -59,7 +61,13 @@
     /* site nav */
 
     .header-container {    
-        align-items: center;       
+        align-items: center; 
+        margin-left: 215px;  
+        margin-right: 215px;  
+        width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+            margin: 0 auto;  
     }
 
 
@@ -84,6 +92,7 @@
     }
 
     .contacts-list {
+        margin-left: auto;
         display: flex;
     }
     
@@ -204,16 +213,28 @@
     .container {
         padding-top: 94px;
         padding-bottom: 94px;
+       
     }
     
     .section {
         padding-top: 94px;
         padding-bottom: 94px;
+        
     }
 
     .section.no-padding {
         padding-top: 0px;
         padding-bottom: 0px;
+    }
+
+    .feature-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .feature-list .item {
+        width: 300px;
+        background-color: tomato;
     }
 
     .feature-list ,title {
