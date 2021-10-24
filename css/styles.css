@@ -229,8 +229,8 @@
     }
     
     .section {
-        padding-top: 94px;
-        padding-bottom: 94px;
+        
+        margin: auto;
         
     }
 
@@ -261,7 +261,7 @@
 
     .feature-list ,title {
         margin-top: 0px;
-        margin-bottom: 0px;
+        margin: auto;
         color:var(--title-text-color);    
         font-size: 14px;
         line-height: 1.14;
@@ -370,7 +370,7 @@
         padding-right: 15px;
         padding-top: 94px;
         padding-bottom: 94px;  
-        margin: aut 
+
     }
 
 
@@ -381,7 +381,9 @@
     
     
     .logo-footer {
-        padding-bottom: 20px;
+        width: 145px;
+        margin-right: 0;
+        margin-bottom: 20px;
 
         color:var(--hero-color);
         font-family:Raleway;
@@ -404,14 +406,30 @@
     .contakts-address{
         font-style: inherit; 
     }
+
+    .contakts-list {
+        list-style: none;
+         padding: 0%;
+    }
+
+    .contakts-item {
+        margin-bottom: 9px;
+    }
+
     
     .address-link{
+        margin-bottom: 9px;
+        
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: var(--hero-color);
         background-color: var(--background-color-two);
     }
+
+    /* .address-link:not(:last-child) {  */
+        /* margin-bottom: 9px;  */
+  
     
     
     
@@ -495,8 +513,8 @@
          width: 1250px;
          padding-left: 15px;
          padding-right: 15px;
-         margin-left: 215px;
-         argin-right: 215px;
+         margin: auto;
+         
 
      }
      
