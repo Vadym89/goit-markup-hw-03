@@ -133,6 +133,8 @@
     color: var(--second-text-color);
     padding-top: 32px;
     padding-bottom: 32px;
+    text-decoration: none;
+    
   }
   
   .contacts-link:hover,
@@ -405,6 +407,7 @@
     letter-spacing: 0.03em;
     color: var(--hero-color);
     background-color: var(--background-color-two);
+    text-decoration: none;
   }
   
   /* .address-link:not(:last-child) {  */
@@ -458,11 +461,17 @@
     padding: 0;
     list-style: none;
   }
-  
+   
+   
+
   .flex-element {
     margin-bottom: 30px;
     margin-left: 30px;
     width: calc(100% / 3 - 30px);
+  }
+
+  .flex-element .img {
+    width: 100%;
   }
   
   .box-title {
