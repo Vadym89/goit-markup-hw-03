@@ -95,6 +95,8 @@
   .contacts-list {
     margin-left: auto;
     display: flex;
+    
+    
   }
   
   .contacts-list .contacts-item:not(:last-child) {
