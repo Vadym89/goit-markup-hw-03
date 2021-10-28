@@ -9,13 +9,18 @@
     --stroke-color: #ececec;
   }
   
+* {
+  box-sizing: border-box;
+} 
+
+  
+  /* base style */
+
   body {
     background-color: var(--hero-color);
     color: var(--primary-text-color);
-    font-family: Roboto, Raleway;
-  }
-  
-  /* base style */
+    font-family: Roboto, Raleway;}
+
   
   .container {
     width: 1200px;
@@ -36,6 +41,8 @@
     text-decoration: none;
     display: block;
     margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
   
   .web {
@@ -53,7 +60,7 @@
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    
   }
   
   /* main nav */
@@ -77,6 +84,7 @@
   .site-nav {
     display: flex;
     align-items: center;
+    margin-right: auto;
   }
   
   .site-nav .item {
@@ -93,7 +101,6 @@
   }
   
   .contacts-list {
-    margin-left: auto;
     display: flex;
     
     
@@ -127,6 +134,7 @@
   }
   
   .contacts-link {
+    display: block;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -185,7 +193,7 @@
   
   .section-title {
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     color: var(--title-text-color);
   
     font-weight: bold;
@@ -265,11 +273,14 @@
   .team-list {
     margin-left: -30px;
   }
+
   .info-item,
   .team-photo {
-    margin-top: 30px;
+
     margin-left: 30px;
+    width: calc(100% / 3 - 30px);
   }
+
   .info-item-img {
     display: block;
     max-width: 100%;
@@ -277,7 +288,6 @@
   }
 
  
-  
   .team-photo {
     flex-wrap: wrap;
     width: 270px;
@@ -333,17 +343,13 @@
   .team-text {
     text-align: center;
   }
-  
-  /* display: flex;
-          align-items: center;
-  
-          margin-left: 215px;  
-          margin-right: 215px;  
-          width: 1200px;
-          padding-left: 15px;
-          padding-right: 15px;
-              margin: 0 auto;  */
-  
+
+
+  .footer .contacts-link {
+    padding: 0;
+  }
+
+
   .footer-item {
     display: flex;
   
@@ -411,9 +417,8 @@
     background-color: var(--background-color-two);
     text-decoration: none;
   }
-  
-  /* .address-link:not(:last-child) {  */
-  /* margin-bottom: 9px;  */
+
+
   
   /* portfolio */
   
@@ -429,6 +434,7 @@
   
   .filter-btn {
     border-radius: 4px;
+    padding: 6px 22px;
     border-color: transparent;
     min-height: 38px;
     font-family: inherit;
@@ -472,13 +478,9 @@
     width: calc(100% / 3 - 30px);
   }
 
-  .flex-element .img {
-    width: 100%;
-  }
   
   .box-title {
     padding: 20px 16px;
-    border-top: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
     border-right: 1px solid #eeeeee;
     border-left: 1px solid #eeeeee;
